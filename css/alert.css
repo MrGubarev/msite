@@ -1,0 +1,25 @@
+a.page-link {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+ 
+/* active, hover */
+ 
+li.page-item.active .page-link, a.page-link:active, a.page-link:hover {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: #fff;
+}
+ 
+/* disabled */
+ 
+li.page-item.disabled .page-link {
+  border: 1px solid #e6979e;
+  color: #e6979e;
+}
+ 
+/* focus */
+ 
+li.page-item.focus .page-link, a.page-link:focus {
+  box-shadow: 0 0 0 0.1rem rgba(220, 53, 69, .5);
+}
